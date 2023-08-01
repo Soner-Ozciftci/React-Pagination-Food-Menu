@@ -22,7 +22,7 @@ function App() {
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/2560px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png" />
       </h1>
       <div className="container">
-        {items.slice(0, visible).map((item) => (
+        {items.slice(0,visible).map((item) => (
           <div className="card">
             <div className="image">
               <img src={item.strMealThumb} />
